@@ -15,5 +15,5 @@ app.set('views', path.join(__dirname, "views"))
 app.set('view engine', 'jade')
 
 server.listen(3000 | process.env.PORT, ()=>{
-  console.log("Listening on port", server.address().port);
+  console.log("Listening on port", server.address().port)
 })
