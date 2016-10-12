@@ -1,0 +1,21 @@
+{
+  "name": "learn_auth_passport",
+  "description": "Try to use passport.js",
+  "main": "server.js",
+  "authors": [
+    "Jirachai Chansivanon"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "PassportJS"
+  ],
+  "homepage": "https://github.com/antronic/learn_auth_passport",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/libs"
+  ]
+}
