@@ -12,8 +12,11 @@ app.use(express.static(path.join(__dirname, "public")))
 app.use(morgan('dev'))
 
 app.set('views', path.join(__dirname, "views"))
-app.set('view engine', 'jade')
+app.set('view engine', 'pug')
 
-server.listen(3000 | process.env.PORT, ()=>{
+import routes from './app/routes'
+routes(app)
+
+server.listen(3333 | process.env.PORT, ()=>{
   console.log("Listening on port", server.address().port)
 })
